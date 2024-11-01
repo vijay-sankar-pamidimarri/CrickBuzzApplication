@@ -17,7 +17,7 @@ Crick BuZZ is a comprehensive cricket management application designed to provide
 - **Build Tool**: Maven
 - **Version Control**: Git
 
-## Installation//
+## Installation
 
 1. **Clone the Repository**:
    ```bash
