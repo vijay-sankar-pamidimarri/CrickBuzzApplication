@@ -11,7 +11,7 @@ This application Shares the real time score to the User Through The Emails.and W
 - **Statistics Tracking**: Track and display various statistics related to matches and players.
 - **RESTful API**: Access and interact with the application's features through a well-defined REST API.
 
-## Technologies Used
+## Technologies Used 
 
 - **Backend**: Java, Spring Boot, Spring MVC, Spring Data JPA
 - **Database**:MySQL, PostgreSQL
