@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/login/v1/match")
+@RequestMapping("/login/v1/match")//empty line added
 public class MatchController {
     @Autowired
     MatchServices matchServices;
