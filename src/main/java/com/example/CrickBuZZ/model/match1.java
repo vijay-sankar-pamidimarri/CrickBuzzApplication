@@ -1,4 +1,5 @@
 package com.example.CrickBuZZ.model;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -25,6 +26,7 @@ public class match1 {
     Date EndDate;
     String PlaceofVenue;
     String MatchName;
+    @JsonIgnore
     @ManyToMany(mappedBy = "matches")
     List<Team> team;
 }
